@@ -1,0 +1,45 @@
+:root{
+    --cor1:#dbdf1a;
+    --cor2:#D4321C;
+    --cor3:#EB5E2B;
+    --cor4:#FFFBF5;
+    --cor5:#090910;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container{
+    background: var(--cor5);
+}
+header .logo{
+    text-align: center;
+    color: var(--cor1);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    position: relative;
+    background-size: contain;
+  
+    
+}
+
+/*Skills*/
+main{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url("/image/agents/background/razeback.png");
+    position: relative;
+    background-size: contain;
+    
+}
+main .skill{
+    margin-left: 50px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--cor4);
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+main .videoskill{
+    pointer-events: none;
+    
+}
